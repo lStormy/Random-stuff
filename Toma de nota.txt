@@ -1,0 +1,19 @@
+Reglas del blackjack:
+	-Se juega con un mazo de 52 cartas
+	-Las cartas valen su respectivo valor excepto el caballo, la reina y el rey que valen 10 y el As que vale 1 u 11.
+	-Se juega contra el dealer (en este caso la computadora).
+	-El dealer está obligado a darse cartas si la suma de sus cartas son menores a 16.
+	-Por otro lado el dealer está obligado plantarse si la suma de su cartas es mayor o igual a 17.
+	-Si el jugador consigue un blackjack (que sus dos primeras cartas sumen 21) gana al instante. 
+	-Si alguno de los dos (el dealer o el jugador) se pasa de 21 pierden. 
+
+Cosas a tener en cuenta: 
+	-El juego no termina apenas gana el Jugador. Sino cuando el jugador quiere dejar de jugar.
+	-El jugador va a empezar con 1 ficha. Si pierde la apuesta entonces el juego termina. El jugador puede decidir que elige
+============================================================================================================================
+Syntax						[]	Match results
+soup.select('div')			[]	All elements with 'div' tag
+soup.select('#someid')		[]	Elements containing id = 'someid'
+soup.select('.some_class')	[]	Elements containing class = 'some_class'
+soup.select('div span')		[]	Any elements named span within a div element.
+soup.select('div > span')	[]	Any elements named span directly within a div element, with nothing in between.
